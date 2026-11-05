@@ -1,6 +1,6 @@
 {
   "name": "finance-data-providers",
-  "description": "External API data — sentiment via Adanos, Fintel short-interest/ownership intelligence, Hormuz Strait monitoring, TradingView via a bundled headless MCP server or the desktop reader, and Hyperliquid perp/spot reader.",
+  "description": "External API data — sentiment via Adanos, Fintel short-interest/ownership intelligence, Hormuz Strait monitoring, TradingView via a bundled headless MCP server or the desktop reader, Hyperliquid perp/spot reader, and autorekt cross-asset market data and macro liquidity.",
   "version": "11.2.1",
   "author": {
     "name": "himself65"
@@ -31,12 +31,18 @@
     "perps",
     "funding",
     "crypto",
-    "dex"
+    "dex",
+    "autorekt",
+    "macro",
+    "liquidity",
+    "positioning",
+    "gamma",
+    "prediction-markets"
   ],
   "interface": {
     "displayName": "Finance Data Providers",
     "shortDescription": "Market data and sentiment",
-    "longDescription": "External API data — sentiment via Adanos, Fintel short-interest/ownership intelligence, Hormuz Strait monitoring, TradingView via a bundled headless MCP server or the desktop reader, and Hyperliquid perp/spot reader.",
+    "longDescription": "External API data — sentiment via Adanos, Fintel short-interest/ownership intelligence, Hormuz Strait monitoring, TradingView via a bundled headless MCP server or the desktop reader, Hyperliquid perp/spot reader, and autorekt cross-asset market data and macro liquidity.",
     "developerName": "himself65",
     "category": "Productivity",
     "websiteURL": "https://github.com/himself65/finance-skills",

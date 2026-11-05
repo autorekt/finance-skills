@@ -92,6 +92,7 @@ External API data — sentiment via Adanos, Fintel short-interest/ownership inte
 | [tradingview-mcp](plugins/data-providers/skills/tradingview-mcp/) | Headless TradingView data via a bundled [tradingview-mcp](https://github.com/atilaahmettaner/tradingview-mcp) server — TA readouts, multi-timeframe alignment, exchange scans, futures overview/movers, extended hours, options chain (no greeks), backtests. No app, no login |
 | [tradingview-reader](plugins/data-providers/skills/tradingview-reader/) | Read-only TradingView desktop reader — quotes, full options chains with greeks/IV, expiries, watchlists, alerts, chart state, screenshots — via [opencli](https://github.com/jackwener/opencli) + CDP |
 | [hyperliquid-reader](plugins/data-providers/skills/hyperliquid-reader/) | Read-only [Hyperliquid](https://app.hyperliquid.xyz) market-data reader — perp/spot markets, mids, funding (incl. cross-venue arb screen), order book, and candles — via [opencli](https://github.com/jackwener/opencli) + public info API |
+| [autorekt-reader](plugins/data-providers/skills/autorekt-reader/) | Cross-asset market data and macro liquidity via the [autorekt](https://github.com/autorekt/autorekt) CLI — briefing, SOFR/IORB, swap spreads, TGA, CFTC positioning, dealer gamma, crypto funding and liquidations, China money markets, Polymarket/Kalshi odds — from free public sources, no API key |
 
 ### Startup Tools (`finance-startup-tools`)
 

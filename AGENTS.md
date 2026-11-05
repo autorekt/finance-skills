@@ -31,7 +31,7 @@ plugins/
   social-readers/         # Social media research feeds (Twitter, Discord, LinkedIn, Telegram, YC)
     plugin.json
     skills/...
-  data-providers/         # External API data (Adanos, Fintel, Hormuz Strait, TradingView, Hyperliquid)
+  data-providers/         # External API data (Adanos, Fintel, Hormuz Strait, TradingView, Hyperliquid, autorekt)
     plugin.json
     .mcp.json             # Bundled MCP servers (tradingview — headless TradingView scanner, pinned to a git SHA)
     skills/...
@@ -148,7 +148,7 @@ This repo ships as a Claude Code and OpenAI Codex plugin marketplace containing 
 |---|---|
 | `finance-market-analysis` | Stock analysis, earnings, correlations, options via yfinance |
 | `finance-social-readers` | Social media research feeds (Twitter, Discord, LinkedIn, Telegram, YC) |
-| `finance-data-providers` | External API data (Adanos, Fintel, Hormuz Strait, TradingView MCP + desktop reader, Hyperliquid) |
+| `finance-data-providers` | External API data (Adanos, Fintel, Hormuz Strait, TradingView MCP + desktop reader, Hyperliquid, autorekt) |
 | `finance-startup-tools` | Startup analysis frameworks |
 | `finance-ui-tools` | Generative UI design system for Claude widgets |
 | `finance-skill-creator` | Skill authoring, evaluation, and improvement |
